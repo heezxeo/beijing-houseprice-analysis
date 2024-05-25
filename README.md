@@ -5,10 +5,15 @@ This repository contains analysis on Beijing Property Market prices using data f
 > Programming Language: SQL (MySQL)
 
 The repository has the following series of contents:
-- Data (raw, processed)
-- notebooks (SQL query)
-- Report: Final Report (ppt)
-
+```
+├── data/
+│   ├── raw/                      # Original Dataset
+│   └── processed/                # Cleaned Dataset
+│
+├── notebooks/                    # SQL Query
+│
+└── reports/                      # Final PPT
+```
 ## Problem Statement ❓
 Our goal for this project is to use time, location, property and amenities analysis to suggest an optimal solution for investing in Beijing properties in 2018 for different categories of budgets of investors
 
